@@ -20,5 +20,12 @@ serde_json = "1.0.59"
 tracing = "0.1.21"
 tracing-futures = "0.2.4"
 
+# java
+jni = "0.18.0"
+
 [dev-dependencies]
 gherkin_rust = "0.8.3"
+
+
+[lib]
+crate_type = ["cdylib"]
